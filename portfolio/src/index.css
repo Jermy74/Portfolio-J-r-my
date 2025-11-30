@@ -71,5 +71,15 @@ button:hover {
 }
 
 .dark .card{
-   background-color: var(--color-brown3);
+  background-color: var(--color-brown3);
+}
+
+footer {
+  background-color: var(--color-brown1);
+  color: var(--color-brown4);
+}
+
+.dark footer{
+  background-color: var(--color-lightbrown1);
+  color: var(--color-lightbrown4)
 }
