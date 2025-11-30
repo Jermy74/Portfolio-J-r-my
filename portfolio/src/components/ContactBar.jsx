@@ -1,4 +1,24 @@
+import { useEffect, useState } from "react"
+
 export default function ContactBar({ isDark, toggleTheme }) {
+
+    const[isVisible, setIsVisible] = useState(true);
+
+    useEffect(() => {
+        const scroll = () => {
+            const footer = document.querySelector('footer');
+            if (footer){
+                const footerRect = footer.getBoundingClientRect();
+                const isFooterVisible = footerRect.top < window.innerHeight;
+                setIsVisible(!isFooterVisible);
+            }
+        };
+        window.addEventListener('scroll', scroll);
+        scroll();
+
+        return () => window.removeEventListener('scroll', scroll);
+    }, []);
+
     return (
         <div className="fixed bottom-0 left-1/2 -translate-x-1/2 border-t border-l border-r rounded-t-lg flex items-center gap-15 pl-8 pr-8 z-50 bg-(--background)" style={{boxShadow: 'var(--shadow-top)'}}>
             <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-lugand">
