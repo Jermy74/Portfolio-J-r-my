@@ -4,7 +4,7 @@ export default function Accueil({ isDark, toggleTheme }) {
     return (
         <div className="min-h-screen">
             <div className="flex flex-col place-items-center gap-10 lg:gap-10">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl text-center">Bienvenue,</h1>
+                <h1 className="text-4xl md:text-5xl lg:text-6xl text-center">Bienvenue, découvrez mon univers à travers mes projets !</h1>
                 <div className="flex flex-col lg:flex-row items-center gap-10 xl:gap-20 ">
                     <div className="flex flex-col flex-1 place-items-center gap-6 px:3 lg:gap-18">
                         <div className="flex flex-col items-center gap-3">
