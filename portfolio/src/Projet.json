@@ -1,0 +1,55 @@
+[
+    {
+        "id": "1",
+        "image": "",
+        "name": "EpiJob",
+        "description": "Site web pouvant répertorier des offres d'emplois",
+        "descriptiond": "Le projet est une plateforme web de type Indeed, qui permet aux utilisateurs de rechercher, filtrer, et postuler à des offres d'emploi, tandis que les administrateurs peuvent gérer les annonces via un panel d'administration. Cette plateforme est conçue pour faciliter la gestion des offres d'emploi pour les recruteurs et les candidats en fournissant une interface intuitive et un backend robuste pour gérer les données en toute sécurité.",
+        "techno": [
+            "ReactJS",
+            "NextJS",
+            "Tailwind",
+            "TypeScript"
+        ],
+        "code": "https://github.com/EpitechMscProPromo2028/T-WEB-501-LYO_2/tree/main/project-1"
+    },
+    {
+        "id": "2",
+        "image1": "",
+        "name": "EpiHead",
+        "description": "Jeu de foot 2D à la fois dynamique et amusant, entre amis ou non.",
+        "descriptiond": "Le projet consiste en un jeu vidéo 2D, inspiré du jeu Head Soccer, où des joueurs contrôlent des personnages stylisés avec de grandes têtes qui s'affrontent sur un terrain de football. Le but du jeu est de marquer des buts tout en utilisant des mouvements spéciaux et des compétences uniques. Ce jeu combine des mécaniques simples mais addictives avec des graphismes cartoonesques et des animations fluides pour offrir une expérience de jeu agréable et amusante.",
+        "techno": [
+            "ReactJS",
+            "NextJS",
+            "Tailwind",
+            "TypeScript"
+        ],
+        "code": "https://github.com/EpitechMscProPromo2028/T-JAV-501-LYO_8"
+    },
+    {
+        "id": "3",
+        "image1": "",
+        "name": "Intention de jeu à la récupération",
+        "description": "Étude sur les intentions de jeu des joueurs du pôle Espoirs à la récupération du ballon.",
+        "descriptiond": "Le projet consiste à développer une solution analytique dédiée à l'étude et à l'amélioration des intentions de jeu à la récupération dans le football. Ce concept fait référence aux actions et décisions que prennent les joueurs lorsqu'ils récupèrent le ballon, en fonction de leur position, des adversaires et de la dynamique du jeu. Le but est de comprendre comment les joueurs réagissent lors de la récupération et comment ces informations peuvent être utilisées pour optimiser les stratégies de jeu, en particulier dans la transition entre la défense et l'attaque.",
+        "techno": [
+            "SportsCode",
+            "PowerBI",
+            "Python"
+        ],
+        "code": ""
+    },
+    {
+        "id": "4",
+        "image1": "En maintenance",
+        "name": "Sondage en ligne dans un docker",
+        "description": "Création d'un sondage en ligne avec base de donnée sous Docker",
+        "descriptiond": "",
+        "techno": [
+            "Docker"
+        ],
+        "code": ""
+        
+    }
+]

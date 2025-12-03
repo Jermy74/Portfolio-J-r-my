@@ -12,8 +12,8 @@ export default function Apropos() {
         setActiveSection(activeSection === section ? null : section);
     };
     return (
-        <div className="flex flex-col gap-15 lg:gap-30 h-screen pt-2">
-            <div className="flex flex-col gap-5 pl-20 lg:items-center">
+        <section id="apropos" className="flex flex-col gap-15 pb-10 lg:gap-30 min-h-screen pt-2">
+            <div className="flex flex-col gap-5 pl-20 lg:pl-0 lg:items-center">
                 <h1 className="text-3xl lg:text-5xl">À propos de moi</h1>
                 <div className="w-20 lg:w-30 h-1 bg-current rounded-xl"></div>
             </div>
@@ -30,8 +30,9 @@ export default function Apropos() {
                                 <h2 className="m-5 text-sm lg:text-md">2023-2025</h2>
                             </div>
                             <div className='flex mt-2 gap-10'>
-                                {activeSection === 'Louhans' && <LouhansCuiseaux />}
-                                <div className={`bg-current ml-auto mr-13 self-end ${activeSection === 'Louhans' ? 'w-3 md:w-2 h-full' : 'w-0.5 h-5'}`}></div>
+                                {activeSection === 'Louhans' && (
+                                    <div className='slide-down'><LouhansCuiseaux /></div>)}
+                                <div className={`bg-current ml-auto mr-13 ${activeSection === 'Louhans' ? 'w-3 md:w-2' : 'w-0.5 h-5'}`}></div>
                             </div>
                         </div>
                         <div className="flex flex-col">
@@ -43,8 +44,9 @@ export default function Apropos() {
                                 <h2 className="m-5 text-sm lg:text-md">2021-2023</h2>
                             </div>
                             <div className='flex mt-2 gap-10'>
-                                {activeSection === 'Pôle' && <PôleEspoirs />}
-                                <div className={`bg-current ml-auto mr-13 self-end ${activeSection === 'Pôle' ? 'w-3 md:w-2 h-full' : 'w-0.5 h-5'}`}></div>
+                                {activeSection === 'Pôle' && (
+                                    <div className='slide-down'><PôleEspoirs /></div>)}
+                                <div className={`slide-down bg-current ml-auto mr-13 ${activeSection === 'Pôle' ? 'w-3 md:w-2' : 'w-0.5 h-5'}`}></div>
                             </div>
                         </div>
                         <div className="flex flex-col">
@@ -57,8 +59,8 @@ export default function Apropos() {
                             </div>
                             {activeSection === 'Educateur' && (
                                 <div className='flex mt-2 gap-10'>
-                                    <Éducateur />
-                                    <div className="w-2 bg-current ml-auto mr-13"></div>
+                                    <div className='slide-down'><Éducateur /></div>
+                                    <div className="w-1.5 bg-current ml-auto mr-13"></div>
                                 </div>)}
                         </div>
                     </div>
@@ -66,17 +68,17 @@ export default function Apropos() {
                 <div className="flex flex-col xl:flex-2 pl-30 pr-30 lg:gap-10">
                     <h2 className="text-2xl self-center">Skills</h2>
                     <div className='flex flex-col gap-10 mt-15 items-center'>
-                        <div className='flex gap-20 lg:gap-10'>
+                        <div className='flex gap-20 flex-wrap'>
                             <img className='size-20' src="src/assets/Python.png" alt="python" />
                             <img className='w-25 h-20' src="src/assets/Mysql.png" alt="mysql" />
                         </div>
-                        <div className='flex gap-15'>
+                        <div className='flex gap-15 flex-wrap'>
                             <img className='w-30' src="src/assets/Html.png" alt="html" />
                             <img className='w-30' src="src/assets/React.png" alt="react" />
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
