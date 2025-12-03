@@ -17,7 +17,7 @@ export default function LouhansCuiseaux() {
                     </div>
                 </div>
                 <div className=" flex flex-1 justify-center items-center">
-                    <img className="size-25" src="src/assets/Logo_Louhans.png" alt="Louhans" />
+                    <img className="size-25" src="/assets/logolouhans.png" alt="Louhans" />
                 </div>
             </div>
         </div>
