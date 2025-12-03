@@ -16,7 +16,7 @@ export default function PôleEspoirs() {
                     </div>
                 </div>
                 <div className=" flex flex-1 justify-center items-center">
-                    <img className="w-35 pr-2" src="src/assets/logo_Lbfc.png" alt="Pôle" />
+                    <img className="w-35 pr-2" src="/assets/logolbfc.png" alt="Pôle" />
                 </div>
             </div>
         </div>

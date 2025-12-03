@@ -69,12 +69,12 @@ export default function Apropos() {
                     <h2 className="text-2xl self-center">Skills</h2>
                     <div className='flex flex-col gap-10 mt-15 items-center'>
                         <div className='flex gap-20 flex-wrap'>
-                            <img className='size-20' src="src/assets/Python.png" alt="python" />
-                            <img className='w-25 h-20' src="src/assets/Mysql.png" alt="mysql" />
+                            <img className='size-20' src="/assets/python.png" alt="python" />
+                            <img className='w-25 h-20' src="/assets/mysql.png" alt="mysql" />
                         </div>
                         <div className='flex gap-15 flex-wrap'>
-                            <img className='w-30' src="src/assets/Html.png" alt="html" />
-                            <img className='w-30' src="src/assets/React.png" alt="react" />
+                            <img className='w-30' src="/assets/html.png" alt="html" />
+                            <img className='w-30' src="/assets/react.png" alt="react" />
                         </div>
                     </div>
                 </div>

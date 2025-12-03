@@ -5,7 +5,7 @@ import { Sun, Moon } from 'lucide-react';
 export default function Header({ isDark, toggleTheme }) {
     const scrollSection = (sectionId) => {
         const section = document.getElementById(sectionId);
-        if (section){
+        if (section) {
             section.scrollIntoView({
                 behavior: "smooth",
                 block: "start"
@@ -15,14 +15,14 @@ export default function Header({ isDark, toggleTheme }) {
     return (
         <nav className='relative'>
             <div className="flex items-center justify-between pr-5">
-                <img className="size-25" src="src/assets/logo.png" alt="Logo portfolio" />
+                <img className="size-25" src="/assets/logo.png" alt="Logo portfolio" />
                 <div className="flex items-center gap-8">
                     <div className='flex justify-center w-30'>
-                        <h2 className='transition-all duration-100 cursor-pointer hover:text-lg lg:hover:text-xl' onClick={() => scrollSection("apropos")}>À propos</h2>
+                        <h2 className='transition-all duration-100 cursor-pointer hover:text-lg lg:hover:text-xl' onClick={() => scrollSection("projets")}>Projets</h2>
                     </div>
                     <h2>/</h2>
                     <div className='flex justify-center w-30'>
-                        <h2 className='transition-all duration-100 cursor-pointer hover:text-lg lg:hover:text-xl' onClick={() => scrollSection("projets")}>Projets</h2>
+                        <h2 className='transition-all duration-100 cursor-pointer hover:text-lg lg:hover:text-xl' onClick={() => scrollSection("apropos")}>À propos</h2>
                     </div>
                     <h2>/</h2>
                     <div className='flex justify-center w-30'>

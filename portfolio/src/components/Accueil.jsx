@@ -15,7 +15,7 @@ export default function Accueil({ isDark, toggleTheme }) {
                     </div>
                     <div className="flex items-center gap-10 md:gap-20">
                         <span className="text-7xl pb-50 lg:hidden">{"<"}</span>
-                        <img className="flex-1 rounded-full object-cover size-100 lg:size-125 xl:size-150" src="/src/assets/photo.jpg" alt="Photo" />
+                        <img className="flex-1 rounded-full object-cover size-100 lg:size-125 xl:size-150" src="/assets/photo.jpg" alt="Photo" />
                         <span className="text-7xl pt-50 lg:hidden">{"/>"}</span>
                     </div>
                     <div className="flex-1 flex justify-center px-3">

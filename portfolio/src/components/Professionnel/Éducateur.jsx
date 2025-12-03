@@ -13,7 +13,7 @@ export default function Éducateur() {
                     </div>
                 </div>
                 <div className=" flex flex-1 justify-center items-center">
-                    <img className="size-25" src="src/assets/Logo_Quetigny.png" alt="Quetigny" />
+                    <img className="size-25" src="/assets/logoquetigny.png" alt="Quetigny" />
                 </div>
             </div>
         </div>
