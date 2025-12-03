@@ -6,8 +6,8 @@ export default function ProjetDétaillé({ projet, onClose, isDark }) {
                 <button className="float-right rounded-sm cursor-pointer mb-5" onClick={onClose}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x-icon lucide-x"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
                 </button>
-                <div className="flex w-full h-64 bg-gray-100 items-center justify-center">
-                    <span className="">Image</span>
+                <div className="flex w-full items-center justify-center">
+                    <img className="rounded-xl" src={projet.image1} alt="image" />
                 </div>
                 <div className="flex mt-4">
                     <h2 className="text-xl lg:text-2xl">{projet.name}</h2>
