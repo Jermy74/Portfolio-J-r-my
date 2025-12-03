@@ -19,19 +19,19 @@ export default function Projets() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 px-10 md:px-20 lg:px-40" >
                 {projets.map((projet) => (
-                    <div className="flex flex-col gap-3 card rounded-lg p-6 cursor-pointer transform transition duration-200 hover:scale-105" key={projet.id} onClick={() => openProjet(projet)}>
+                    <div className="px-10 flex flex-col gap-3 card rounded-lg p-6 cursor-pointer transform transition duration-200 hover:scale-105" key={projet.id} onClick={() => openProjet(projet)}>
                         <div>
-                            <h2>{projet.name}</h2>
+                            <h2 className="text-xl">{projet.name}</h2>
                         </div>
-                        <div className="w-auto flex items-center rounded-md ">
-                            <span>Image</span>
+                        <div className="w-full h-64 md:h-90 flex items-center justify-center rounded-md ">
+                            <img className="w-auto h-full object-cover rounded-xl lg:w-150" src={projet.image1} alt="d" />
                         </div>
                         <div>
                             <h3>{projet.description}</h3>
                         </div>
-                        <div className="flex flex-wrap gap-2 ">
+                        <div className="flex flex-wrap gap-2 lg:gap-6 xl:gap-10">
                             {projet.techno.map((technologie, index) => (
-                                <span key={index} className="px-2 py-1 rounded-full bg-brown4 text-brown2 text-sm">{technologie}</span>
+                                <span key={index} className="shadow-md/30 px-2 py-1 rounded-full bg-brown4 text-brown2 text-sm">{technologie}</span>
                             ))}
                         </div>
                     </div>
