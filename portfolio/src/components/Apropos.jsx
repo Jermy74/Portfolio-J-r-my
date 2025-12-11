@@ -25,9 +25,9 @@ export default function Apropos() {
                             <div className="flex items-center justify-between card cursor-pointer rounded-md h-15 gap-6" onClick={() => toggleSection('Louhans')}>
                                 <div className="flex gap-25 items-baseline m-5">
                                     <h2 className="text-lg lg:text-xl">Analyste Vidéo</h2>
-                                    <h3 className="text-sm lg:text-md italic">Louhans-Cuiseaux FC</h3>
+                                    <h3 className="text-sm lg:text-md italic text-center">Louhans-Cuiseaux FC</h3>
                                 </div>
-                                <h2 className="m-5 text-sm lg:text-md">2023-2025</h2>
+                                <h2 className="m-5 text-sm lg:text-md ">2023-2025</h2>
                             </div>
                             <div className='flex mt-2 gap-10'>
                                 {activeSection === 'Louhans' && (
@@ -39,7 +39,7 @@ export default function Apropos() {
                             <div className="flex items-center justify-between card cursor-pointer rounded-md h-15" onClick={() => toggleSection('Pôle')}>
                                 <div className="flex gap-25 items-baseline m-5">
                                     <h2 className="text-lg lg:text-xl">Analyste Vidéo</h2>
-                                    <h3 className="text-sm lg:text-md italic">Pôle Espoirs Dijon</h3>
+                                    <h3 className="text-sm lg:text-md italic text-center">Pôle Espoirs Dijon</h3>
                                 </div>
                                 <h2 className="m-5 text-sm lg:text-md">2021-2023</h2>
                             </div>
@@ -53,7 +53,7 @@ export default function Apropos() {
                             <div className="flex items-center justify-between card cursor-pointer rounded-md h-15" onClick={() => toggleSection('Educateur')}>
                                 <div className="flex gap-25 items-baseline m-5">
                                     <h2 className="text-lg lg:text-xl">Éducateur Sportif</h2>
-                                    <h3 className="text-sm lg:text-md italic">AS Quetigny</h3>
+                                    <h3 className="text-sm lg:text-md italic text-center">AS Quetigny</h3>
                                 </div>
                                 <h2 className="m-5 text-sm lg:text-md">2018-2022</h2>
                             </div>

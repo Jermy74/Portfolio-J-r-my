@@ -45,9 +45,11 @@
         "image1": "/assets/docker.png",
         "name": "Sondage en ligne dans un docker",
         "description": "Création d'un sondage en ligne avec base de donnée sous Docker",
-        "descriptiond": "",
+        "descriptiond": "Mise en place d'un docker pour initier un environnement avec Python, NodeJS, Redis, POSTGRES. Ce Docker permet de gérer un sondage, enregistré sur une base de données.",
         "techno": [
-            "Docker"
+            "Docker",
+            "Python",
+            "NodeJS"
         ],
         "code": ""
         
