@@ -17,15 +17,15 @@ export default function Header({ isDark, toggleTheme }) {
             <div className="flex items-center justify-between pr-5">
                 <img className="size-25" src="/assets/logo.png" alt="Logo portfolio" />
                 <div className="flex items-center gap-8">
-                    <div className='flex justify-center w-30'>
+                    <div className='flex justify-center w-13 md:w-30'>
                         <h2 className='transition-all duration-100 cursor-pointer hover:text-lg lg:hover:text-xl' onClick={() => scrollSection("projets")}>Projets</h2>
                     </div>
                     <h2>/</h2>
-                    <div className='flex justify-center w-30'>
+                    <div className='flex justify-center w-18 md:w-30'>
                         <h2 className='transition-all duration-100 cursor-pointer hover:text-lg lg:hover:text-xl' onClick={() => scrollSection("apropos")}>À propos</h2>
                     </div>
                     <h2>/</h2>
-                    <div className='flex justify-center w-30'>
+                    <div className='flex justify-center w-13 md:w-30'>
                         <h2 className='transition-all duration-100 cursor-pointer hover:text-lg lg:hover:text-xl'>Contact</h2>
                     </div>
                     <h2>/</h2>
